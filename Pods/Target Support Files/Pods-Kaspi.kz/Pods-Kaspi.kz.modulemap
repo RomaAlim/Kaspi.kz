@@ -1,0 +1,6 @@
+framework module Pods_Kaspi_kz {
+  umbrella header "Pods-Kaspi.kz-umbrella.h"
+
+  export *
+  module * { export * }
+}

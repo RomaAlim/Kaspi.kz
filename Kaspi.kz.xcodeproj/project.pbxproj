@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34E5D1575405ED3894174313 /* Pods_Kaspi_kz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69478B48DE1B4C888E066E44 /* Pods_Kaspi_kz.framework */; };
 		3AC3AB392C1B0C660033D6EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3AB382C1B0C660033D6EE /* AppDelegate.swift */; };
 		3AC3AB3B2C1B0C660033D6EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3AB3A2C1B0C660033D6EE /* SceneDelegate.swift */; };
 		3AC3AB3D2C1B0C660033D6EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3AB3C2C1B0C660033D6EE /* ViewController.swift */; };
 		3AC3AB402C1B0C660033D6EE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3AB3F2C1B0C660033D6EE /* Base */; };
 		3AC3AB422C1B0C670033D6EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3AB412C1B0C670033D6EE /* Assets.xcassets */; };
 		3AC3AB452C1B0C670033D6EE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3AB442C1B0C670033D6EE /* Base */; };
+		3AF6E3ED2C1B10E7007F6A41 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6E3EC2C1B10E7007F6A41 /* ViewController1.swift */; };
+		3AF6E3EF2C1B10EF007F6A41 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6E3EE2C1B10EF007F6A41 /* ViewController2.swift */; };
+		3AF6E3F12C1B10FF007F6A41 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6E3F02C1B10FF007F6A41 /* ViewController3.swift */; };
+		3AF6E3F32C1B1108007F6A41 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6E3F22C1B1108007F6A41 /* ViewController4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,13 @@
 		3AC3AB412C1B0C670033D6EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AC3AB442C1B0C670033D6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AC3AB462C1B0C670033D6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF6E3EC2C1B10E7007F6A41 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		3AF6E3EE2C1B10EF007F6A41 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		3AF6E3F02C1B10FF007F6A41 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		3AF6E3F22C1B1108007F6A41 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		69478B48DE1B4C888E066E44 /* Pods_Kaspi_kz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kaspi_kz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6EDEDCBE22547D29BD2BEA /* Pods-Kaspi.kz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaspi.kz.release.xcconfig"; path = "Target Support Files/Pods-Kaspi.kz/Pods-Kaspi.kz.release.xcconfig"; sourceTree = "<group>"; };
+		B257F386DC1BF0B2C43FB1A9 /* Pods-Kaspi.kz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaspi.kz.debug.xcconfig"; path = "Target Support Files/Pods-Kaspi.kz/Pods-Kaspi.kz.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34E5D1575405ED3894174313 /* Pods_Kaspi_kz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A882054A46C8CDABD589CC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69478B48DE1B4C888E066E44 /* Pods_Kaspi_kz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3AC3AB2C2C1B0C660033D6EE = {
 			isa = PBXGroup;
 			children = (
 				3AC3AB372C1B0C660033D6EE /* Kaspi.kz */,
 				3AC3AB362C1B0C660033D6EE /* Products */,
+				45466F9A64C9A1C9272A3E80 /* Pods */,
+				0A882054A46C8CDABD589CC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +86,21 @@
 				3AC3AB412C1B0C670033D6EE /* Assets.xcassets */,
 				3AC3AB432C1B0C670033D6EE /* LaunchScreen.storyboard */,
 				3AC3AB462C1B0C670033D6EE /* Info.plist */,
+				3AF6E3EC2C1B10E7007F6A41 /* ViewController1.swift */,
+				3AF6E3EE2C1B10EF007F6A41 /* ViewController2.swift */,
+				3AF6E3F02C1B10FF007F6A41 /* ViewController3.swift */,
+				3AF6E3F22C1B1108007F6A41 /* ViewController4.swift */,
 			);
 			path = Kaspi.kz;
+			sourceTree = "<group>";
+		};
+		45466F9A64C9A1C9272A3E80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B257F386DC1BF0B2C43FB1A9 /* Pods-Kaspi.kz.debug.xcconfig */,
+				8D6EDEDCBE22547D29BD2BEA /* Pods-Kaspi.kz.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AC3AB492C1B0C670033D6EE /* Build configuration list for PBXNativeTarget "Kaspi.kz" */;
 			buildPhases = (
+				CD13EC5753B481E748252AD7 /* [CP] Check Pods Manifest.lock */,
 				3AC3AB312C1B0C660033D6EE /* Sources */,
 				3AC3AB322C1B0C660033D6EE /* Frameworks */,
 				3AC3AB332C1B0C660033D6EE /* Resources */,
+				59C712350DAD7490FE297121 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +171,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59C712350DAD7490FE297121 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kaspi.kz/Pods-Kaspi.kz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kaspi.kz/Pods-Kaspi.kz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kaspi.kz/Pods-Kaspi.kz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD13EC5753B481E748252AD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kaspi.kz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3AC3AB312C1B0C660033D6EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF6E3EF2C1B10EF007F6A41 /* ViewController2.swift in Sources */,
+				3AF6E3F32C1B1108007F6A41 /* ViewController4.swift in Sources */,
+				3AF6E3ED2C1B10E7007F6A41 /* ViewController1.swift in Sources */,
+				3AF6E3F12C1B10FF007F6A41 /* ViewController3.swift in Sources */,
 				3AC3AB3D2C1B0C660033D6EE /* ViewController.swift in Sources */,
 				3AC3AB392C1B0C660033D6EE /* AppDelegate.swift in Sources */,
 				3AC3AB3B2C1B0C660033D6EE /* SceneDelegate.swift in Sources */,
@@ -203,7 +287,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +350,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +371,7 @@
 		};
 		3AC3AB4A2C1B0C670033D6EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B257F386DC1BF0B2C43FB1A9 /* Pods-Kaspi.kz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +400,7 @@
 		};
 		3AC3AB4B2C1B0C670033D6EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D6EDEDCBE22547D29BD2BEA /* Pods-Kaspi.kz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
